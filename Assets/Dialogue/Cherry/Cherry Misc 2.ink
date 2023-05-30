@@ -1,0 +1,1 @@
+I've been speaking to Mr. Carrot... He is very...<i>lively</i>. But I suppose some of us need to be cheery in times like these. #speaker:Cherry #playerPortrait:player_grey #npcPortrait:cherry_active

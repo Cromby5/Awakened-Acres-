@@ -1,0 +1,1 @@
+I don't know about you, but we should really get a move on. #speaker:Chilli #playerPortrait:player_grey #npcPortrait:chili_active 

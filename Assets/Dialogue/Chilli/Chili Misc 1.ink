@@ -1,0 +1,1 @@
+There's more of those thorns in that cavern over there? I may have to go burn a few down myself! #speaker:Chilli #playerPortrait:player_grey #npcPortrait:chili_active 

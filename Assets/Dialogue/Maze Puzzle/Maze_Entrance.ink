@@ -1,0 +1,1 @@
+This cavern looks so dark and eerie... I should have a look around and see if I can use this <color=red>fire spell</color> to light some torches. #speaker:Player #playerPortrait:player_active #npcPortrait:default

@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 6a93ceaeef21727458c13db007b14e7d
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Snell
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: e315d26789d356c46b17c706112b7fc8, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

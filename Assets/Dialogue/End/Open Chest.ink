@@ -1,0 +1,2 @@
+Aha! Looks like I just needed to gather all of the crops... There's a key in here. This must be the key to open the <color=purple>Seed Sorceress's</color> gate! #speaker:Player #playerPortrait:player_active #npcPortrait:default
+I better get moving! 

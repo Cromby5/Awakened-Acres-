@@ -1,0 +1,1 @@
+Oh no, I've run out of energy! Maybe I should use one of those <color=blue>Potions</color> Mr. Carrot spoke about!#speaker:Player #playerPortrait:player_active

@@ -1,0 +1,1 @@
+We should just go down there and get her told. What will she do with the 5 of us? She can't take us all! #speaker:Cherry #playerPortrait:player_grey #npcPortrait:cherry_active

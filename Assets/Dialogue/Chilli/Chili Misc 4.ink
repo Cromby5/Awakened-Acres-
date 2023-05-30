@@ -1,0 +1,1 @@
+Is it a little hot around here, or is it just me? #speaker:Chilli #playerPortrait:player_grey #npcPortrait:chili_active 

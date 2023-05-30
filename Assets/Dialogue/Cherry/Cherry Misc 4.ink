@@ -1,0 +1,2 @@
+If you find any big boulders out there, you should let me know. I get very angry sometimes and I just need to explode! #speaker:Cherry #playerPortrait:player_grey #npcPortrait:cherry_active
+I'd rather not hurt anyone around here. #speaker:Player #playerPortrait:player_active #npcPortrait:cherry_grey

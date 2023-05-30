@@ -1,0 +1,1 @@
+The farm used to be flourishing with life. There's so few of us left... #speaker:Carrot #playerPortrait:player_grey #npcPortrait:carrot_happy

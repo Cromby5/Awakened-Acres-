@@ -1,0 +1,1 @@
+They took my friends! #speaker:Onion #playerPortrait:player_grey #npcPortrait:onion_active

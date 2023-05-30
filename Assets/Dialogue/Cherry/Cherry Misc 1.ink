@@ -1,0 +1,1 @@
+Why does this Sorceress think she can take over the land? Who does she think she is? #speaker:Cherry #playerPortrait:player_grey #npcPortrait:cherry_active

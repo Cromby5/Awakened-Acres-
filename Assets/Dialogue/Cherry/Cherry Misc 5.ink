@@ -1,0 +1,1 @@
+You need to be more assertive, show the Seed Sorceress who's the boss. #speaker:Cherry #playerPortrait:player_grey #npcPortrait:cherry_active

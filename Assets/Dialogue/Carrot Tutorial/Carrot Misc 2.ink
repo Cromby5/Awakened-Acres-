@@ -1,0 +1,2 @@
+There used to be a boat on that dock back there. Your Auntie and Uncle used to take trips to some of the islands around here. #speaker:Carrot #playerPortrait:player_grey #npcPortrait:carrot_happy
+I hope we get another one so I can head out someday. 

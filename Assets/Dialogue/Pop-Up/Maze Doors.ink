@@ -1,0 +1,2 @@
+These doors just won't budge! I should have a look around to see if there's something to open it. #speaker:Trail Marker #playerPortrait:default #npcPortrait:default
+I'll take a note of these symbols on here too!

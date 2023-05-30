@@ -1,0 +1,1 @@
+I should be able to light these somehow... Maybe with the <color=red>fire spell</color> the Chili gave me? #speaker:Trail Marker #playerPortrait:default #npcPortrait:default

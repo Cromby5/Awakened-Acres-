@@ -1,0 +1,2 @@
+Hey, while you're out farming and stuff, would you mind gathering up a bundle of carrots? Just 10 will do! I'm starting to really feel the effects of the <color=purple>Seed Sorceress</color>.#speaker:Carrot #playerPortrait:player_grey #npcPortrait:carrot_happy
+If I find the time sure! #speaker:Player #playerPortrait:player_active #npcPortrait:Chilli

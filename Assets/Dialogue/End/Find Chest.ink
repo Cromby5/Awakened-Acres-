@@ -1,0 +1,1 @@
+This chest has some weird symbols on it and won't open... I think I should return to this later. #speaker:Player #playerPortrait:player_active #npcPortrait:default

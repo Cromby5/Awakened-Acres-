@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55ba72a9ed31da14b835a099e22c4aee, type: 3}
+  m_Name: Super Potion
+  m_EditorClassIdentifier: 
+  itemPrefab: {fileID: 7689765968046199302, guid: 692a0bff5b106b24ca7cd3dbac8c014f, type: 3}
+  type: 1
+  itemName: Super Potion
+  itemDescription: Replenish your mana bar
+  itemIcon: {fileID: -742877037, guid: 379649b616ec0d3469ae44e8588fde8b, type: 3}
+  amount: 0

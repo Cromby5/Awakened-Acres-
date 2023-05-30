@@ -1,0 +1,1 @@
+Mr. Carrot asked you to help us? I'm sure you'll do a great job! #speaker:Onion #playerPortrait:player_grey #npcPortrait:onion_active

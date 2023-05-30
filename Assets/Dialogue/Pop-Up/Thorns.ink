@@ -1,0 +1,2 @@
+<color=red><b>Ow!</b></color> Those thorn bushes make me feel weary... I should be careful around them. #speaker:Trail Marker #playerPortrait:default #npcPortrait:default
+Didn't the Chili say I could use the <color=red>fire spell</color> to burn things like this down?

@@ -1,0 +1,1 @@
+I think these are chili seeds! I should head back to the farm to see if anyone will come to life from these! #speaker:Player #playerPortrait:player_active #npcPortrait:default 

@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="GameManager">
+    <Position X="3.75" Y="1.75" Width="2" />
+    <AssociationLine Name="AudioManager" Type="AudioManager" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.75" Y="3" />
+        <Point X="8.25" Y="3" />
+        <Point X="8.25" Y="5.25" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAggAAAAAAQAAAAAAgEAAAAACABAAEAAAAAAAACAAEA=</HashCode>
+      <FileName>Assets\Scripts\Managers\GameManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="LevelManager" />
+      <Field Name="DialogueManager" />
+      <Field Name="AudioManager" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AudioManager">
+    <Position X="7.25" Y="5.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAgAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Managers\AudioManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="sounds" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="LevelManager">
+    <Position X="0.5" Y="5.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAEAAAAAAAAKBAEIAFAAgAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Managers\LevelManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DialogueManager">
+    <Position X="3.75" Y="5.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>BABAAAAiACAAABAAAAAAAAAAAAAAAAAAIABAAAIAAEA=</HashCode>
+      <FileName>Assets\Scripts\Dialogue\DialogueManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerMovement">
+    <Position X="12.75" Y="3.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>BAQAAABAAoAAAAGAAAAAAAAAAoAAAAAIAEgEQAEACEA=</HashCode>
+      <FileName>Assets\Scripts\Player\PlayerMovement.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="playerInteraction" />
+      <Field Name="playerInv" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PlayerCamera">
+    <Position X="2.25" Y="11.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AACEAAACACAAAAAAKAAAIAAAAAAAAACAAAIEAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Player\PlayerCamera.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="wall" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Player">
+    <Position X="16.25" Y="8.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAAAQAAAAAAAAAABAAAAAAAAAAAAACACABQAAAQEA=</HashCode>
+      <FileName>Assets\Scripts\Inventory\Player.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="inventory" />
+      <Field Name="equipinventory" />
+      <Field Name="playerInteraction" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Inventory">
+    <Position X="19.5" Y="8.25" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="Inventory.Slot">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\Inventory\Inventory.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAwAAAABAAAgAEAAAAuAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Inventory\Inventory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PlayerInteraction">
+    <Position X="16" Y="3.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAQASAAAACAAAAEAAAgEAAAAIIJAQAAgEADEAEAACAA=</HashCode>
+      <FileName>Assets\Scripts\Farming\PlayerInteraction.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="selectedLand" />
+      <Field Name="otherSelect" />
+      <Property Name="BaseSpell" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="BaseSpell">
+    <Position X="20" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAQAAIAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\BaseSpell.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="spellData" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpellData">
+    <Position X="23" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Data\SpellData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Land">
+    <Position X="22.5" Y="6.5" Width="3.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Land.LandStatus">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\Farming\Land.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAACAACAQAgAAARAAALEAAkABAAAAAQAAAgAA=</HashCode>
+      <FileName>Assets\Scripts\Farming\Land.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ResourceHarvest">
+    <Position X="26.25" Y="6.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAQAACAAACAAAEAAAAAAAAEAAIBAQBAAQAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\ResourceHarvest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inventory_UI">
+    <Position X="13" Y="8" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>IAQAAAAAAEBAAAAQAIAABgAAAEAEACAhAAAgAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Inventory\UI\Inventory_UI.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="equippedSlot" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Slots_UI">
+    <Position X="12.75" Y="12.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAABCAAAAAAAAAAABAAAAQAAABIAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Inventory\UI\Slots_UI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sound">
+    <Position X="7.25" Y="7.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAACAIAAAAAAAAAAAAEAEAgAAAAAAACAAA=</HashCode>
+      <FileName>Assets\Scripts\Sound.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ItemData">
+    <Position X="25" Y="3.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAABABAgAAAgAAAAAAAAA=</HashCode>
+      <FileName>Assets\Data\ItemData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CraftingData">
+    <Position X="20.5" Y="1.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgCAAAAAAAAAgAAAQAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Data\CraftingData.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ItemAmount" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Seeds">
+    <Position X="26.25" Y="10.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAABACAEAAAAAAgAAAAEAAAAAAAMAAAAEAIACAA=</HashCode>
+      <FileName>Assets\Scripts\Farming\Seeds.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="land" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Collectable">
+    <Position X="2" Y="15" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAgAAAAAAAAAAAAAAAAAAAAAAQAAQAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Inventory\Collectable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GamepadCursor">
+    <Position X="14" Y="21.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAiIAABAAACAgUQACAABAAACIACAEACADCAA=</HashCode>
+      <FileName>Assets\Scripts\Menu\GamepadCursor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainMenu">
+    <Position X="5" Y="18" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAABAAAAAIAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Menu\MainMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MenuItem">
+    <Position X="7.5" Y="18" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAKAAAAAAAAAAAAAAAAAIAAAAAQAAQAAAIAA=</HashCode>
+      <FileName>Assets\Scripts\Menu\MenuItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RadialMenu">
+    <Position X="9.75" Y="22" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AASAAAAAACEAAAIAAAEQACDAAAABAAAIAAAAUgFACAA=</HashCode>
+      <FileName>Assets\Scripts\Menu\RadialMenu.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="gamepadCursor" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="BreakableFloor">
+    <Position X="5.5" Y="14.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAACAAAAAABAAICAAAAAAAAAAAQAAAEABAAGA=</HashCode>
+      <FileName>Assets\Scripts\Puzzles\BreakableFloor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CastTransparency">
+    <Position X="4.75" Y="11.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAADAAAAAIAAAAIAAAAAABAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Puzzles\CastTransparency.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chest">
+    <Position X="1.75" Y="18" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>BAAABAAAAAAAAAAAAAQAAAABAAAAAAAAQAAAACAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Puzzles\Chest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Flammable">
+    <Position X="9.75" Y="18" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAQEAQAAACCAAAAAAAAAAAAIAAAAAAAAAAIAAAAEAAA=</HashCode>
+      <FileName>Assets\Scripts\Puzzles\Flammable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KillBox">
+    <Position X="2.25" Y="21.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAQAAAABAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Puzzles\KillBox.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="sky" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CraftingOnMouseOver">
+    <Position X="2.25" Y="24.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAgAAAAAAAAgAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Assets\Scripts\CraftingOnMouseOver.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SwitchSky">
+    <Position X="5.75" Y="21.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAgAQAgAAAAAAAAQIAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\SwitchSky.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="ItemAmount">
+    <Position X="25.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Data\CraftingData.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="item" />
+    </ShowAsAssociation>
+  </Struct>
+  <Enum Name="ItemType">
+    <Position X="27.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACCAAAAAAAAAQAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Data\ItemData.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

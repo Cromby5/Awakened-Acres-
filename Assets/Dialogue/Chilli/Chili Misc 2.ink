@@ -1,0 +1,1 @@
+This Uncle of yours... He took good care of this farm. We should be prompt in ensuring his return. #speaker:Chilli #playerPortrait:player_grey #npcPortrait:chili_active 

@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 34ac2aae601fcbe45b5a40f06ca654ee
+  - enabled: 1
+    path: Assets/Scenes/StartSequence.unity
+    guid: 5a82a3bf243e7a1458911c7f151c0034
+  - enabled: 1
+    path: Assets/Scenes/Last1ScenePanic.unity
+    guid: 38e7a8258bd3657448e8afe5f16431fc
+  - enabled: 0
+    path: Assets/Scenes/1300 Build Panic.unity
+    guid: 1bdaaec9707392d41a5a0eac939cec33
+  - enabled: 0
+    path: Assets/Scenes/Player.unity
+    guid: bd8094892ab69264a9c35d91d33da66a
+  - enabled: 0
+    path: Assets/Scenes/Farm.unity
+    guid: 39f2e84801cfa5b4385c4058647578ce
+  - enabled: 0
+    path: Assets/Scenes/Maze Caitlin 1.unity
+    guid: f7ffa40db2a0fbe419155a1254f554fd
+  - enabled: 0
+    path: Assets/Scenes/Mirror Puzzle.unity
+    guid: 80448ad52f0b31644a2b8b1e6328586b
+  - enabled: 0
+    path: Assets/Scenes/Witch Area.unity
+    guid: 1339fed6abf526e4c8058b6f4deea5ce
+  - enabled: 0
+    path: Assets/Scenes/AdditiveTesting/BenTesting.unity
+    guid: f3f91e81d6f6630439247947268b5af1
+  - enabled: 0
+    path: Assets/Scenes/MainLoader.unity
+    guid: 4a229af9841492b42b69c66a2a0416ed
+  m_configObjects:
+    addressableimportsettingslist: {fileID: 11400000, guid: 1ea7e5b468e7f8a4b9936d0f165badcd, type: 2}
+    com.unity.addressableassets: {fileID: 11400000, guid: 267ff66d0f4aa7c4c97ffe2ab3a2d27f, type: 2}
+    com.unity.input.settings: {fileID: 11400000, guid: 63752072f92370e4f8ee5cee80ab7ef3, type: 2}

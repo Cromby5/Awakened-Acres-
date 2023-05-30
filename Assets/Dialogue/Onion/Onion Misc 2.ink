@@ -1,0 +1,1 @@
+When will Uncle return? <size=60%>I miss him... #speaker:Onion #playerPortrait:player_grey #npcPortrait:onion_active

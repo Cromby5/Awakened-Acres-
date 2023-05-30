@@ -1,0 +1,1 @@
+The chest still won't open... What have I got that matches these symbols? #speaker:Player #playerPortrait:player_active #npcPortrait:default
