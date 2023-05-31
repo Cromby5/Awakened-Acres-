@@ -1,6 +1,6 @@
 # Awakened-Acres-
 Complete IP3 Project
-This is a new repositry, migrated from the old one as git lfs had to be removed to avoid server costs.
+This is a new repository, migrated from the old one as git lfs had to be removed to avoid server costs.
 
 Few Notes that I hope are helpful to anyone reading.
 
