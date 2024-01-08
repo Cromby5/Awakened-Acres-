@@ -17,6 +17,7 @@ TagManager:
   - LaserBase
   - IgnoreCol
   - Portal
+  - mirrorcol
   layers:
   - Default
   - TransparentFX
@@ -29,7 +30,7 @@ TagManager:
   - Land
   - Wall
   - Tree
-  - 
+  - Mirror
   - 
   - 
   - 

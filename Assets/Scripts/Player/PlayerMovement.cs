@@ -161,6 +161,7 @@ public class PlayerMovement : MonoBehaviour
         return isLocked;
     }
 
+    
 
     float pushPower = 2.0f;
     void OnControllerColliderHit(ControllerColliderHit hit)
@@ -188,5 +189,7 @@ public class PlayerMovement : MonoBehaviour
 
         // Apply the push
         body.velocity = pushDir * pushPower;
+
+  
     }
 }
