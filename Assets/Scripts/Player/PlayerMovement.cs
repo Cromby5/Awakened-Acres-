@@ -162,21 +162,31 @@ public class PlayerMovement : MonoBehaviour
     }
 
 
-    private void OnControllerColliderHit(ControllerColliderHit hit)
+    float pushPower = 2.0f;
+    void OnControllerColliderHit(ControllerColliderHit hit)
     {
-        if (hit.gameObject.CompareTag("Moveable"))
+        Rigidbody body = hit.collider.attachedRigidbody;
+
+        // no rigidbody
+        if (body == null || body.isKinematic)
         {
-            if (hit.collider.TryGetComponent<Rigidbody>(out var box))
-            {
-                Vector3 pushDir = new Vector3(hit.moveDirection.x, 0, hit.moveDirection.z);
-                box.velocity = pushDir * pushForce;
-            }
+            return;
         }
-        /*
-        if (hit.gameObject.CompareTag("KnockBack"))
+
+        // We dont want to push objects below us
+        if (hit.moveDirection.y < -0.3)
         {
-            playerVelocity = new Vector3(hit.moveDirection.x, 0, hit.moveDirection.z);
+            return;
         }
-        */
+
+        // Calculate push direction from move direction,
+        // we only push objects to the sides never up and down
+        Vector3 pushDir = new Vector3(hit.moveDirection.x, 0, hit.moveDirection.z);
+
+        // If you know how fast your character is trying to move,
+        // then you can also multiply the push velocity by that.
+
+        // Apply the push
+        body.velocity = pushDir * pushPower;
     }
 }
