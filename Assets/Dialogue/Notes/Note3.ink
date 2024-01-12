@@ -1,0 +1,1 @@
+This must have been the Seed Sorceress... I should fix up these mirrors. #speaker:Player #showcasePortrait:Note3 #playerPortrait:player_active

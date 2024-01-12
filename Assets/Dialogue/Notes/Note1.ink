@@ -1,0 +1,1 @@
+Huh... Wonder what this note is for. #speaker:Player #showcasePortrait:Note1 #playerPortrait:player_active

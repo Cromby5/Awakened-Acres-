@@ -1,0 +1,1 @@
+Another note! I wonder if the mirrors match this too. #speaker:Player #showcasePortrait:Note2 #playerPortrait:player_active
