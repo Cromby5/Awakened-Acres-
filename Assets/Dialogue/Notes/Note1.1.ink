@@ -1,0 +1,1 @@
+What do these symbols mean? #speaker:Player #showcasePortrait:Note1_1 #playerPortrait:player_active

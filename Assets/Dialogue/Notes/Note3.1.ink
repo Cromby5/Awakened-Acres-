@@ -1,0 +1,1 @@
+I hope I get the order right. #speaker:Player #showcasePortrait:Note3_1 #playerPortrait:player_active

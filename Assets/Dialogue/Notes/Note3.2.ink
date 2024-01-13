@@ -1,0 +1,1 @@
+These must match the other mirrors. #speaker:Player #showcasePortrait:Note3_2 #playerPortrait:player_active
