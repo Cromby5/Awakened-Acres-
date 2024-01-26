@@ -1,4 +1,7 @@
 # Awakened-Acres-
+
+https://gcugames.itch.io/awakened-acres
+
 Complete IP3 Project
 This is a new repository, migrated from the old one as git lfs had to be removed to avoid server costs.
 
